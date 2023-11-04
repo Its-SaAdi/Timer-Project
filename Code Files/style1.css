@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../Images/Anime.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS';
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    border: 3px solid azure;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgba(240, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+.imgArea img {
+    min-width: 100px;
+    width: 40%;
+    height: auto;
+}
+
+#timearea{
+    background-color: rgb(172, 160, 160);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.wrapper{
+    padding: 0.7rem 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: azure;
+}
+
+.btn{
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(182, 14, 182); 
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    outline: 3px solid #333;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.play-btn-start{
+    background-color: rgb(55, 204, 18);
+}
+.play-btn-stop{
+    background-color: rgb(228, 10, 10);
+}
